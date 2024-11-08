@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.clockHolde {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.timeHolder {
+  text-align: center;
+}
+
+.mainDiv {
+  font-size: 3rem;
+  color: #fff;
+}
+
+#clock {
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+  
